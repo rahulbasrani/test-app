@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+.logo {
+  width: 200px;
+}
+ul#menu li {
+  display: inline;
+  padding: 10px;
+}
+.title-logo {
+  color: #7c795d;
+  font-family: "Trocchi", serif;
+  font-size: 45px;
+  font-weight: normal;
+  line-height: 48px;
+  margin: 0;
+}
+
+.anchor-class {
+  color: #7d61ff;
+}
+.anchor-class:hover {
+  text-decoration: none;
+}
+
+.btns {
+  border: 1px solid #7d61ff;
+  background-color: white;
+  color: #7d61ff;
+  padding: 1.5vh 1.2vw;
+  font-size: 15px;
+  cursor: pointer;
+}
+.hovers {
+  border-color: #7d61ff;
+  color: #7d61ff;
+  transition: ease;
+  transition-timing-function: linear;
+  transition-duration: 0.5s;
+}
+.hovers:hover {
+  background-color: #7d61ff;
+  color: white;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+}
+hr {
+  margin-top: 0px;
+}
